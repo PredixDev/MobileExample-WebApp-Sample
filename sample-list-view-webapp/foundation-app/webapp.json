@@ -1,0 +1,8 @@
+{
+  "name": "sample-list-view-webapp",
+  "version": "0.0.1",
+  "main": "index.html",
+  "nativeScroll": "false",
+  "src-folder": "./build/",
+  "output-folder": "./dist-zip/"
+}
