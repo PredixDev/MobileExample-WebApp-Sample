@@ -1,0 +1,22 @@
+---
+name: issues
+parent: container
+url: issues
+controller: issueListCtrl
+---
+
+<section class="block-list">
+
+    <!-- Here is where the information from couchbase will be displayed. Simply match your home.html code to this. The ng-repeat is AngularJS used to repeat the list element for each customer. The title and count properties are the customer name and issue count respectively.-->
+    <header>Issues</header>
+    <ul>
+        <li ng-repeat='issue in issues' class="with-chevron"><a ui-sref="issueDetail({issueId: issue})"> {{issue}} </a></li>
+
+    </ul>
+</section>
+
+<div grid-block>
+<p> State details: {{state}} </p>
+    <p> {{title}}</p>
+<a ui-sref="issueDetail({issueId: '123'})">Go To Issue Detail</a>
+</div>

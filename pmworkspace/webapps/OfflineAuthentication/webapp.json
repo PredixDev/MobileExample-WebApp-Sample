@@ -1,0 +1,9 @@
+{
+  "name": "offline-login",
+  "version": "0.0.1",
+  "main": "authenticate.html",
+  "setup": "setup.html",
+  "update": "update.html",
+  "src-folder": "./dist/",
+  "output-folder": "./dist-zip/" 
+}

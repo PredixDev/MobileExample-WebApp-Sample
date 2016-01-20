@@ -1,0 +1,104 @@
+<html>
+<head>
+<style type="text/css">
+div {padding:10 10 0 10;}
+input {margin:10 0 0 0;}
+div.inline { float:left; width: 160}
+.clearBoth { clear:both; }
+</style>
+</head>
+<body>
+<div>
+Update Offline Login Password
+</div>
+<div class="inline">
+User: 
+</div>
+<div id="userName">
+</div>
+<div />
+<div class="inline">
+Original Password:
+</div
+<div>
+<input type="password" id="original">
+</div>
+<div />
+<div class="inline">
+New Password:
+</div
+<div>
+<input type="password" id="pass">
+</div>
+<div />
+<div class="inline">
+Confirm New Password:
+</div
+<div>
+<input type="password" id="confirmPass">
+</div>
+<div>
+<input type="button" id="okButton" value="OK" onclick='buttonClick()'>
+</div>
+<script lang='javascript' type="text/javascript">
+//<![CDATA[
+  
+  var token
+  
+  function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+  
+  function buttonClick(){
+    console.log("OK button clicked")
+    var xmlhttp = new XMLHttpRequest();
+    
+    xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == XMLHttpRequest.DONE && xmlhttp.status != 200) {
+           var reason = "unknown: " + xmlhttp.status
+      	   if (xmlhttp.status == 403)
+      	   {
+      	      reason = "Original password incorrect"
+      	   }
+      	   if (xmlhttp.status == 400)
+      	   {
+      	      reason = "(development) request formatted incorrectly"
+      	   }
+           alert("Change failed: " + reason);
+      }
+    }
+    
+    var original = document.getElementById('original').value;
+    var pass = document.getElementById('pass').value;
+    var confirm = document.getElementById('confirmPass').value;
+    
+    if (pass != confirm)
+    {
+       alert("New password and confirm does not match");
+    }
+    else
+    {
+	    var url =   "http://pmapi/auth/" + token + "/update?p=" + pass + "&o=" + original
+        
+	    xmlhttp.open("PUT",url, true);
+   	 	xmlhttp.setRequestHeader("Content-type","application/json;charset=UTF-8");
+    	xmlhttp.setRequestHeader("Content-length", 0);
+    	xmlhttp.send();
+	}
+  }
+  
+  function start() {
+  	var user = getParameterByName("u")
+  	token = getParameterByName("t")
+  	var userDiv = document.getElementById('userName');
+  	userDiv.innerHTML = user
+  }  
+  
+  start()
+//]]>
+</script>
+</body>
+</html>

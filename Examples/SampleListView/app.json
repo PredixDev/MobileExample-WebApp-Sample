@@ -1,0 +1,8 @@
+{
+  "name": "SampleListViewApp",
+  "version": "1.0",
+  "starter": "sample-list-view-webapp",
+  "dependencies": {
+    "sample-list-view-webapp": "0.0.1"
+  }
+}

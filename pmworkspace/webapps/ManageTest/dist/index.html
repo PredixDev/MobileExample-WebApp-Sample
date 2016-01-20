@@ -1,0 +1,33 @@
+<html>
+<head>
+<style type="text/css">
+div {padding:10 10 0 10;}
+input {margin:10 0 0 0;}
+</style>
+</head>
+<body>
+<div>
+Test Manage Login
+</div>
+<div>
+<input type="button" id="okButton" value="Manage Offline Login" onclick='buttonClick()'>
+</div>
+<script lang='javascript' type="text/javascript">
+//<![CDATA[
+  
+  function buttonClick(){
+    console.log("OK button clicked")
+    var xmlhttp = new XMLHttpRequest();
+    
+    var url =   "http://pmapi/auth/update"
+        
+    xmlhttp.open("POST",url, true);
+    xmlhttp.setRequestHeader("Content-type","application/json;charset=UTF-8");
+    xmlhttp.setRequestHeader("Content-length", 0);
+    xmlhttp.send();
+  }
+  
+//]]>
+</script>
+</body>
+</html>
