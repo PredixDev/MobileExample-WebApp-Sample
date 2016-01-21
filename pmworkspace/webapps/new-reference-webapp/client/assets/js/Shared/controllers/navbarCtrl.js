@@ -20,6 +20,10 @@
                     $scope.rightTextButton = navbarService.getRightTextButton();
                 });
 
+            $scope.goToState = function(state) {
+                $state.go(state);
+            };
+
             $scope.state = $state.current;
 
     });

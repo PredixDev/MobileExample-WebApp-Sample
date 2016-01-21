@@ -18,7 +18,7 @@
 
   function config($urlProvider, $locationProvider) {
 
-    $urlProvider.otherwise('/dashboard');
+    $urlProvider.otherwise('dashboard');
 
     $locationProvider.html5Mode({
       enabled:false,

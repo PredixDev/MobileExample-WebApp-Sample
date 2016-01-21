@@ -1,5 +1,6 @@
 'use strict';
 
+
 angular.module('application').service('navbarService',
     function () {
 

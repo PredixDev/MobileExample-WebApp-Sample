@@ -8,10 +8,20 @@ controller: navbarCtrl
     <div class="grid-content shrink" style="padding: 0;">
         <div class="primary title-bar">
             <div class="center title">{{title}}</div>
-            <span class="left"><a href="{leftTextButton.link}">{{leftTextButton.title}}</a></span>
-            <span class="right"><a href="{rightTextButton.link}">{{rightTextButton.title}}</a></span>
+            <span class="left">
+                <a ng-show="leftTextButton.show" ng-click="goToState(leftTextButton.link)">
+                    <img zf-iconic="" icon="chevron" icon-attrs="{ direction: 'left' }" size="small">
+                    {{leftTextButton.title}}
+                </a>
+            </span>
+            <span class="right">
+                <a ng-show="rightTextButton.show" ng-click="goToState(leftTextButton.link)">
+                    {{rightTextButton.title}}
+                    <img zf-iconic="" icon="chevron" icon-attrs="{ direction: 'right' }" size="small">
+                </a>
+            </span>
         </div>
     </div>
-    <div ui-view class="grid-content">
+    <div ui-view class="grid-frame vertical">
     </div>
 </div>
