@@ -6,8 +6,8 @@ controller: navbarCtrl
 
 <div class="grid-frame vertical">
     <div class="grid-content shrink" style="padding: 0;">
-        <div class="primary title-bar">
-            <div class="center title">{{title}}</div>
+        <div class="primary title-bar status-bar-height">
+            <div class="center title ">{{title}}</div>
             <span class="left">
                 <a ng-show="leftTextButton.show" ng-click="goToState(leftTextButton.link)">
                     <img zf-iconic="" icon="chevron" icon-attrs="{ direction: 'left' }" size="small">
@@ -22,6 +22,6 @@ controller: navbarCtrl
             </span>
         </div>
     </div>
-    <div ui-view class="grid-frame vertical">
+    <div ui-view>
     </div>
 </div>

@@ -2,32 +2,43 @@
 name: dashboard
 parent: container
 url: dashboard
+controller: dashboardCtrl
 ---
 
-
-        <div class="grid-block">
-        <div class="grid-content red">
-
-            <div class="card">
-                <div class="card-section">
-                    <p>The most basic elements in the Foundation for Apps grid are the Group and Block.</p>
+<div class="grid-frame vertical dashboard">
+        <div class="grid-block shrink clear">
+            <div class="grid-block shrink">
+                <div class="grid-content">
+                    <img src="assets/img/avatar.png" class="round-img dashboard-img">
                 </div>
             </div>
-
-        </div>
-        </div>
-
-        <div class="grid-block">
-        <div class="grid-content green">
-
-            <div class="card">
-                <div class="card-section">
-                    <p>The most basic elements in the Foundation for Apps grid are the Group and Block.</p>
+            <div class="grid-block align-right">
+                <div class="grid-content noscroll no-padding">
+                    <h4 class="text-white">Welcome, {{user.name}}</h4>
+                    <p class="text-white">Today is {{date | date:'fullDate' }}</p>
                 </div>
             </div>
+        </div>
 
+
+<div class="grid-block vertical shrink grid-content">
+    <div class="card">
+        <div class="grid-content shrink">
+            <h4 class="text-center">Assigned to You</h4>
         </div>
+        <div class="grid-block align-spaced">
+            <div class="grid-block shrink" ng-repeat="issue in issueSeverities">
+                <div class="grid-content">
+                <div class="circle green center-circle-parent">
+                    <span class="center-circle">{{issue.count}}</span>
+                </div>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
+
+
 
         <div class="grid-block">
         <div class="grid-content blue">
@@ -40,7 +51,7 @@ url: dashboard
 
         </div>
         </div>
-
+</div>
 
 
   <!--<a ui-sref="issues({ issueType: 'severe'})">Go to Severe Issues</a>-->
