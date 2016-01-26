@@ -1,10 +1,163 @@
 ---
 name: issueDetail
 parent: container
-url: issueDetail/:issueId
+url: issueDetail/:issueType/:issueId
 controller: issueDetailCtrl
 ---
+<div class="grid-block">
+    <div class="grid-content vertical issueDetail">
+        <div class="card">
+            <!-- Title -->
+            <div class="grid-content">
+                <h4 class="text-grey">{{issue.title.toUpperCase()}}</h4>
+            </div>
+            <!-- Content - Details -->
+            <div class="card-section">
+                <div class="grid-block">
+                    <!-- Severity w/ Image -->
+                    <div class="grid-content small-3">
+                        <div>
+                            <img ng-src="{{issue.image}}">
+                            <div><strong>Severity:</strong></div>
+                            <p>{{issue.severity}}</p>
+                        </div>
 
-<div class="grid-frame vertical">
-<p>This is the issue with id: {{issueId}}</p>
+                    </div>
+                    <!-- Other details -->
+                    <div class="grid-content small-9">
+                        <div class="grid-block">
+                            <div class="grid-content shrink wrapDetail">
+                                <div><strong>Issue #:</strong></div>
+                                <p class=>{{issue._id}}</p>
+                            </div>
+
+                            <div class="grid-content shrink">
+                                <div><strong>Customer:</strong></div>
+                                <p>{{issue.customer}}</p>
+                            </div>
+                            <div class="grid-content shrink">
+                                <div><strong>Updated:</strong></div>
+                                <p>{{issue.updated_at}}</p>
+                            </div>
+                            <div class="grid-content shrink">
+                                <div><strong>Issue Type:</strong></div>
+                                <p>{{issue.type}}</p>
+                            </div>
+                            <div class="grid-content shrink">
+                                <div><strong>Assignee:</strong></div>
+                                <p>{{issue.assignee}}</p>
+                            </div>
+                            <div class="grid-content shrink">
+                                <div><strong>Status:</strong></div>
+                                <p>{{issue.status}}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Content - Description-->
+            <div class="card-section">
+                <div>
+                    <h4>Description</h4>
+                </div>
+                <div>
+                    <p>{{issue.body}}</p>
+                </div>
+            </div>
+            <!-- Content - Actions -->
+            <div class="card-section">
+                <div class="grid-block align-spaced">
+                    <div class="grid-block shrink">
+
+                            <a class="button alert" href="#">Delete</a>
+                    </div>
+
+                    <div class="grid-block shrink">
+                        <a class="button" href="#">Comment</a>
+                    </div>
+
+                    <div class="grid-block shrink">
+                        <a class="button" href="#">Assign</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
 </div>
+
+<!--<div class="grid-frame vertical issueDetail">-->
+    <!--<div class="grid-block vertical shrink grid-content">-->
+        <!--<div class="card">-->
+            <!--<h4 class="card-header"> {{issue.title}}</h4>-->
+            <!--<div class="grid-block">-->
+                <!--<div class="grid-block shrink">-->
+                    <!--<div class="grid-content issue-card-left">-->
+                        <!--<img ng-src="{{issue.image}}">-->
+                        <!--<div><strong>Severity:</strong></div>-->
+                        <!--<p>{{issue.severity}}</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="grid-block vertical">-->
+                    <!--<div class="grid-content issue-details">-->
+                        <!--<span><strong>Issue #:</strong></span>-->
+                        <!--<p class="issue-id">{{issue._id}}</p>-->
+                    <!--</div>-->
+                    <!--<div class="grid-block shrink">-->
+                        <!--<div class="grid-content issue-detail issue-detail-left">-->
+                            <!--<p><strong>Customer:</strong></p>-->
+                            <!--<p>{{issue.customer}}</p>-->
+                        <!--</div>-->
+                        <!--<div class="grid-content issue-detail">-->
+                            <!--<p><strong>My Role:</strong></p>-->
+                            <!--<p>Owner</p>-->
+                        <!--</div>-->
+                        <!--<div class="grid-content issue-detail issue-detail-right">-->
+                            <!--<p><strong>Updated:</strong></p>-->
+                            <!--<p>{{issue.updated_at}}</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="grid-block shrink">-->
+                        <!--<div class="grid-content issue-detail issue-detail-left">-->
+                            <!--<p><strong>Issue Type:</strong></p>-->
+                            <!--<p>{{issue.type}}</p>-->
+                        <!--</div>-->
+                        <!--<div class="grid-content issue-detail">-->
+                            <!--<p><strong>Assignee:</strong></p>-->
+                            <!--<p>{{issue.assignee}}</p>-->
+                        <!--</div>-->
+                        <!--<div class="grid-content issue-detail issue-detail-right">-->
+                            <!--<p><strong>Status:</strong></p>-->
+                            <!--<p>{{issue.status}}</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<h4 class="card-header">Description</h4>-->
+            <!--<div class="grid-block">-->
+                <!--<div class="grid-content issue-desc-section">-->
+                    <!--<p class="issue-description">-->
+                        <!--{{issue.body}}-->
+                    <!--</p>-->
+                        <!--<div class="grid-block align-spaced">-->
+                            <!--<div class="grid-block shrink">-->
+                                <!--<a class="alert button" href="#">Delete</a>-->
+                            <!--</div>-->
+                            <!--<div class="grid-block shrink">-->
+                                <!--<a class=" button" href="#">Comment</a>-->
+                            <!--</div>-->
+                            <!--<div class="grid-block shrink">-->
+                                <!--<a class=" button" href="#">Assign</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+        <!--</div>-->
+    <!--</div>-->
+
+<!--</div>-->

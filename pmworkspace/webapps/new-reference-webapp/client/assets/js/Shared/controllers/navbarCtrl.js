@@ -20,8 +20,20 @@
                     $scope.rightTextButton = navbarService.getRightTextButton();
                 });
 
-            $scope.goToState = function(state) {
-                $state.go(state);
+            $scope.goToStateLeft = function(state) {
+                if($scope.leftTextButton.params){
+                    $state.go(state,$scope.leftTextButton.params);
+                }else{
+                    $state.go(state);
+                }
+            };
+
+            $scope.goToStateRight = function(state) {
+                if($scope.rightTextButton.params){
+                    $state.go(state,$scope.rightTextButton.params);
+                }else{
+                    $state.go(state);
+                }
             };
 
             $scope.state = $state.current;

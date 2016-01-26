@@ -23,7 +23,7 @@ angular.module('application').filter('uniqueWithCount',
                     output[value] = 1;
                 }
             });
-            console.log(output);
+            //console.log(output);
             for (var item in output){
                 outputArr.push({"title":item,"count":output[item]});
             };

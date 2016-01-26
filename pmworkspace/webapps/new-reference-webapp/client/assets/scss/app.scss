@@ -2,6 +2,14 @@
 @import "foundation";
 
 
+$urgent-color: #F8A546;
+$critical-color: #F04124;
+$normal-color: #00558b;
+$cute-white: #F1F1F1;
+
+.grid-content-o {
+  overflow:auto;
+}
 
 .status-bar-height{
   margin-top:20px;
@@ -11,12 +19,17 @@
   background-color: grey;
 }
 
+
 .title-bar.primary{
   border-bottom: 1px solid #323232;
 }
 
 .no-padding{
   padding: 0px;
+}
+
+.text-black{
+  color:black;
 }
 
 .text-white{
@@ -27,7 +40,48 @@
   text-align:center;
 }
 
+
 .dashboard{
+
+  .card{
+    color:grey;
+    h4 {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+
+  .critical-btn {
+    .circle {
+      background-color: $critical-color;
+      color: white;
+    }
+    .iconic * {
+      fill: $critical-color;
+      stroke: $critical-color;
+    }
+
+  }
+  .urgent-btn {
+    .circle {
+      background-color: $urgent-color;
+      color: white;
+    }
+    .iconic * {
+      fill: $urgent-color;
+      stroke: $urgent-color;
+    }
+
+  }
+  .normal-btn {
+    .circle {
+      background-color: $normal-color;
+      color: white;
+    }
+    .iconic * {
+      fill: $normal-color;
+      stroke: $normal-color;
+    }
+  }
 
   .red {
     background-color: red;
@@ -46,8 +100,6 @@
   }
 
   .dashboard-img {
-    width:70px;
-    height:70px;
     margin-bottom: 10px;
     margin-top: 10px;
   }
@@ -67,5 +119,101 @@
     left:50%;
     transform:translate(-50%, -50%);
   }
+
+}
+
+
+.issue-list{
+  .issue-cell{
+    .issue-cell-link {
+      background-color: white;
+      color: #a6a6a6;
+      .issue-cell-header{
+        color: #484848
+      }
+    }
+    //does ellipsis on overflow after one line
+    .issue-preview{
+      white-space: nowrap;
+      width: 12em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  }
+}
+
+.issueDetail{
+  .wrapDetail {
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  img {
+    margin: 3px;
+  }
+
+  p {
+    color: grey;
+  }
+
+  .button {
+    margin: 1rem;
+  }
+
+  .card{
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+
+  //.card-header{
+  //  border-bottom: 1px solid #ccc;
+  //  text-align: center;
+  //}
+  //img {
+  //  margin: 4px;
+  //  margin-bottom: 10px;
+  //  max-width: 50px;
+  //  height: 42px;
+  //}
+  //
+  //.issue-card-left{
+  //  margin-left: 20px;
+  //}
+  //
+
+  //
+  //.issue-details{
+  //
+  //  margin-left: 10px;
+  //
+  //  .issue-id{
+  //    max-width: 300px;
+  //  }
+  //}
+  //
+  //.issue-detail{
+  //  padding: 0px;
+  //  max-width: 115px;
+  //}
+  //
+  //.issue-detail-left{
+  //  margin-left: 42px;
+  //}
+  //
+  //.issue-detail-right{
+  //  margin-right: 20px;
+  //}
+  //
+  //.issue-description{
+  //  padding: 10px;
+  //}
+  //
+  //.issue-desc-section{
+  //  padding-left: 35px;
+  //}
+  //
+  //
 
 }

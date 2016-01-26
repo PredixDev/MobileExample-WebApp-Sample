@@ -4,54 +4,52 @@ parent: container
 url: dashboard
 controller: dashboardCtrl
 ---
-
-<div class="grid-frame vertical dashboard">
+<div class="grid-block dashboard">
+    <div class="grid-content vertical">
+        <!-- Profile picture and Welcome message -->
         <div class="grid-block shrink clear">
-            <div class="grid-block shrink">
-                <div class="grid-content">
-                    <img src="assets/img/avatar.png" class="round-img dashboard-img">
-                </div>
+            <div class="grid-content small-3">
+                <img src="assets/img/avatar.png" class="round-img dashboard-img">
             </div>
-            <div class="grid-block align-right">
-                <div class="grid-content noscroll no-padding">
-                    <h4 class="text-white">Welcome, {{user.name}}</h4>
-                    <p class="text-white">Today is {{date | date:'fullDate' }}</p>
+            <div class="grid-content small-9">
+                <h4 class="text-white">Welcome, {{user.name}}</h4>
+                <p class="text-white">Today is {{date | date:'fullDate' }}</p>
+            </div>
+        </div>
+
+        <!-- Issue Count Circles -->
+        <!-- Surrounding card -->
+        <div class="card">
+            <!-- Title (Could also use card-section here, but that adds extra padding around the top and bottom)-->
+            <div class="grid-content">
+                <h4 class="text-center text-grey">ASSIGNED TO YOU</h4>
+            </div>
+            <!-- Severity Circles Section-->
+            <div class="card-section">
+                <div class="grid-block">
+                    <!-- Individual Bubble Severity-->
+                    <!-- Why doesn't ui-sref="issues({issueType:{{issue.severity}}}) work???-->
+                    <div class="grid-content vertical small-4 {{issue.btnType}}" ng-click=goToIssues(issue.severity) ng-repeat="issue in issueSeverities">
+                        <!-- -->
+                        <div class="grid-block shrink align-spaced">
+                            <div class="circle center-circle-parent">
+                                <span class="center-circle">{{issue.count}}</span>
+                            </div>
+                        </div>
+                        <div class="grid-block shrink align-spaced">
+                            <p class="text-center text-grey">{{issue.severity.toUpperCase()}} <img class="iconic-color-primary" zf-iconic="" icon="chevron" icon-attrs="{ direction: 'right' }" size="small"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-
-<div class="grid-block vertical shrink grid-content">
-    <div class="card">
-        <div class="grid-content shrink">
-            <h4 class="text-center">Assigned to You</h4>
-        </div>
-        <div class="grid-block align-spaced">
-            <div class="grid-block shrink" ng-repeat="issue in issueSeverities">
-                <div class="grid-content">
-                <div class="circle green center-circle-parent">
-                    <span class="center-circle">{{issue.count}}</span>
-                </div>
-                </div>
+        <!-- [Future] Graph -->
+        <div class="card">
+            <div class="card-section">
+                <a ui-sref="issues">Go To Issue List</a>
             </div>
         </div>
+
     </div>
 </div>
-
-
-
-        <div class="grid-block">
-        <div class="grid-content blue">
-
-            <div class="card">
-                <div class="card-section">
-                    <a ui-sref="issues">Go To Issue List</a>
-                </div>
-            </div>
-
-        </div>
-        </div>
-</div>
-
-
-  <!--<a ui-sref="issues({ issueType: 'severe'})">Go to Severe Issues</a>-->

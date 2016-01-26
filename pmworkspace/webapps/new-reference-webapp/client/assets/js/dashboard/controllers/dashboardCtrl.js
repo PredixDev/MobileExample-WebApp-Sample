@@ -5,10 +5,10 @@
 'use strict';
 
 angular.module('application').controller('dashboardCtrl',
-    function($scope, $state, navbarService, pmapiService, $filter){
+    function($scope, $state, navbarService, pmapiService, issueService){
 
         navbarService.setButton(0, "Back", "issues", false, false);
-        navbarService.setButton(1, "Right", "issues", false, false);
+        navbarService.setButton(1, "All Issues", "issues", true, true);
 
         navbarService.setTitle("Dashboard");
 
@@ -16,30 +16,13 @@ angular.module('application').controller('dashboardCtrl',
             $scope.user = user;
         });
 
-        var issueSeverities = [
-            {"severity": "critical", "color": "red", "image": "todo", "count": 0},
-            {"severity": "urgent","color": "yellow", "image": "todo", "count": 0},
-            {"severity": "normal", "color": "blue", "image": "todo", "count": 0}
-        ];
+        issueService.getIssueCounts().then(function(issueCounts) {
+            $scope.issueSeverities = issueCounts;
+        });
 
-        //pmapiService.getAllDocs().then(function(rows){
-        //    var countOfIssues = $filter('filter')(rows, {doc: {dataType: "entity"}}, true);
-        //    countOfIssues = $filter('uniqueWithCount')(countOfIssues,["doc","severity"]);
-        //    for (var i=0; i<issueSeverities.length; i++) {
-        //        // get the index of the severity in the array of issue counts
-        //        var countIndex = countOfIssues
-        //                            .map(function(obj) {
-        //                                return obj.title;
-        //                            })
-        //                            .indexOf(issueSeverities[i].severity);
-        //        // add issue count to the severity object
-        //        issueSeverities[i].count = countOfIssues[countIndex].count;
-        //
-        //    }
-        //    $scope.issueSeverities = issueSeverities;
-        //});
-
-        $scope.issueSeverities = issueSeverities;
+        $scope.goToIssues = function(issueType){
+          $state.go("issues",{"issueType":issueType});
+        };
 
         $scope.date = new Date();
     });

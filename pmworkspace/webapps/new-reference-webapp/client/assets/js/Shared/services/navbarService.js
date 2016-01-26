@@ -34,17 +34,30 @@ angular.module('application').service('navbarService',
             return title;
         };
 
-        this.setButton = function(button, title, link, enabled, show) {
+        this.setButton = function(button, title, link, enabled, show, params) {
             if (button == ButtonEnum.LEFT) {
                 leftTextButton.title = title;
                 leftTextButton.link = link;
                 leftTextButton.enabled = enabled;
                 leftTextButton.show = show;
+                if(params){
+                    leftTextButton.params = params;
+                }
+                else{
+                    leftTextButton.params = null;
+                }
             } else if (button == ButtonEnum.RIGHT) {
                 rightTextButton.title = title;
                 rightTextButton.link = link;
                 rightTextButton.enabled = enabled;
                 rightTextButton.show = show;
+                if(params){
+                    rightTextButton.params = params;
+                }
+                else{
+                    rightTextButton.params = null;
+                }
+
             }
         };
 
@@ -56,16 +69,3 @@ angular.module('application').service('navbarService',
         };
 
     });
-
-//angular.module('application').service('navbarService',
-//    function () {
-//        var title = "Dashboard";
-//        var navS = {};
-//        navS.setTitle = function(pTitle){
-//            title = pTitle;
-//        };
-//
-//        navS.getTitle = function(){
-//            return title;
-//        };
-//    });
