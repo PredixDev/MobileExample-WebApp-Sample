@@ -30,15 +30,18 @@ angular.module('application').filter('uniqueWithCount',
                 }
             });
             // use the last filter key as the key for the object
-            var title = filterKeys[filterKeys.length - 1]
+            var title = filterKeys[filterKeys.length - 1];
             // if no filter keys were used, set the title as "item"
             if (!title) {
                 title = "item"
             }
             // convert to array
             for (var item in output){
-                outputArr.push({title: item,"count":output[item]});
-            };
+                var countObj = {};
+                countObj[title] = item;
+                countObj["count"] = output[item];
+                outputArr.push(countObj);
+            }
             return outputArr;
         }
 });
