@@ -5,7 +5,7 @@
     'ui.router',
     'ngAnimate',
 
-    //foundation
+    // foundation dependencies
     'foundation',
     'foundation.dynamicRouting',
     'foundation.dynamicRouting.animations'
@@ -18,6 +18,7 @@
 
   function config($urlProvider, $locationProvider) {
 
+    // Any garbage link will go to dashboard
     $urlProvider.otherwise('dashboard');
 
     $locationProvider.html5Mode({
