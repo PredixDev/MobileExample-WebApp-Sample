@@ -3,8 +3,9 @@ name: container
 url: /
 controller: navbarCtrl
 ---
-
 <div class="grid-frame vertical">
+
+    <!-- Navigation Bar -->
     <div class="grid-content shrink" style="padding: 0;">
         <div class="dark title-bar status-bar-height">
             <div class="center title ">{{title}}</div>
@@ -23,6 +24,8 @@ controller: navbarCtrl
             </span>
         </div>
     </div>
+    <!-- Page Contents -->
+    <!-- The grid-frame was needed here to allow for proper scrolling on every screen -->
     <div ui-view class="grid-frame">
     </div>
 </div>

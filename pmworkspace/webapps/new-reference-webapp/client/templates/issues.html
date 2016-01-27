@@ -4,11 +4,13 @@ parent: container
 url: issues/:issueType
 controller: issueListCtrl
 ---
+<!-- Issue List Page -->
 <div class="grid-block vertical issue-list">
     <div class="grid-block">
         <div class="grid-content">
             <section class="block-list">
                 <ul>
+                    <!-- Issue Cell -->
                     <li ng-repeat="issue in issues" class="with-chevron issue-cell">
                         <a ui-sref="{{issueLink}}" class="issue-cell-link">
                             <div class="grid-block">

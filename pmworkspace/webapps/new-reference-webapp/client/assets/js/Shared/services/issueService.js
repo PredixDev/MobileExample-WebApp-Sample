@@ -109,7 +109,9 @@ angular.module('application').service('issueService',
             });
         };
 
-
+        /*
+         @return Promise that returns an array of issue objects expanded to include their corresponding metadata
+        */
         this.getIssuesWithMetadata = function() {
             return self.getIssues().then(function(issues) {
                 var issuesWithMetadata = issues
@@ -122,11 +124,15 @@ angular.module('application').service('issueService',
             });
         };
 
+        /*
+         @param id The document id of an issue
+         @return the issue object expanded to include the corresponding metadata
+        */
         this.getIssueByIdWithMetatdata = function(id){
           return pmapiService.getDocumentById(id).then(function(issue){
               var issueWithMetadata = [issue];
               issueWithMetadata = injectIssueMetadata(issueWithMetadata,"severity");
-              return issueWithMetadata;
+              return issueWithMetadata[0];
           });
         };
 

@@ -20,7 +20,7 @@ angular.module('application').controller('issueDetailCtrl',
         navbarService.setTitle("Issue Details");
 
         issueService.getIssueByIdWithMetatdata($scope.issueId).then(function(issue){
-            $scope.issue = issue[0];
+            $scope.issue = issue;
             console.log("issueID: ",$scope.issueId );
             console.log($scope.issue);
         });
