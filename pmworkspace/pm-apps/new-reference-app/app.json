@@ -1,9 +1,0 @@
-{
-  "name": "NewSample",
-  "version": "1.0",
-  "starter": "new-reference-webapp",
-  "dependencies": {
-    "new-reference-webapp": "0.0.1"
-    
-  }
-}

@@ -1,8 +1,0 @@
-{    
-  "name": "Sample1",    
-  "version": "1.0",    
-  "starter": "pm-minimal-app",    
-  "dependencies": {        
-    "pm-minimal-app": "0.0.1"     
-  }
-}

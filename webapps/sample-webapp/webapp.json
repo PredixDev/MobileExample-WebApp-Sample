@@ -1,5 +1,5 @@
 {
-  "name": "sample-list-view-webapp",
+  "name": "sample-webapp",
   "version": "0.0.1",
   "main": "index.html",
   "nativeScroll": "false",

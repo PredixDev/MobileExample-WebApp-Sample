@@ -1,7 +1,0 @@
-{
-  "name": "manage-offline-test",
-  "version": "0.0.1",
-  "main": "index.html",
-  "src-folder": "./dist/",
-  "output-folder": "./dist-zip/" 
-}

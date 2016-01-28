@@ -1,0 +1,9 @@
+{
+  "name": "Sample",
+  "version": "1.0",
+  "starter": "sample-webapp",
+  "dependencies": {
+    "sample-webapp": "0.0.1"
+    
+  }
+}
