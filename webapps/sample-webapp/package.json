@@ -5,7 +5,8 @@
     "start": "gulp",
     "build": "gulp build",
     "publish": "pm publish",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "bower install"
   },
   "devDependencies": {
     "front-router": "^1.0.0",
