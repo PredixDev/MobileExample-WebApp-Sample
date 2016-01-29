@@ -1,4 +1,13 @@
 # The Predix Mobile Sample App
+##app.json
+App Name: Sample1
+
+Version: 1.0
+
+##webapp.json
+Web-App Name: sample-webapp
+
+Version: 0.0.1
 
 ## Background
 This is the sample app for Predix Mobile.  
@@ -17,76 +26,42 @@ The sample app's tech stack is based on Foundation for Apps, which uses HTML5, J
 
 ## Running the Predix Mobile Sample App
 
-View the [getting started documentation](https://www.predix.io/docs#lVCblJRH) for running the sample app.
-
 ###Before You Begin:
+This is the general setup for all Mobile WebApp Examples.
+If you have NOT worked through the [getting started documentation](https://www.predix.io/docs#lVCblJRH), please use those docs for running the sample app.
 
-If you haven't already set up the Predix Mobile development environment, see:
+###Setup
+This is the general setup for all Mobile WebApp Examples, but is HIGHLY recommended that you follow the [getting started documentation](https://www.predix.io/docs#lVCblJRH) when installing this app.
 
-1. [Access and Software Requirements](https://www.predix.io/docs/?r=148719#G8fMvuP4)
-2. [Creating a Predix Mobile Up Service Instance](https://www.predix.io/docs/?r=148718#wGWeWH2T)
+1. Clone the repo into your desired workspace.
 
-NOTE: You will be using the variables that you stored in your parameters text file from the above "Before You Begin" steps in the steps below.
-
-###Steps:
-
-1. Get the Predix Mobile Up Service URL.
-
-  a. Execute the following command: 
-  
-  `$ cf env <your_app_name>`
-  
-  b. The command above returns details for the app, including information on the Predix Mobile Service. The property, `api_gateway_short_route` has the URL for the Predix Mobile Up Service. Record this URL in your parameters text file beside *predix_mobile_up_service_url*
-
-2. Execute the following command:
-  
-  `$ pm api <predix_mobile_up_service_url>`
-
-3. Clone this repo on to your local machine.
-
-  `$ git clone https://github.com/PredixDev/MobileExample-WebApp-Sample.git`
-
-4. Log into the pm tool with the command below using the *developer_username* that you created with the `pm-add-developer.sh` script in [Creating a Predix Mobile Up Service Instance](https://www.predix.io/docs/?r=148718#wGWeWH2T).
-  
-  `$ pm auth developer_username developer_password`
-
-5. Build and Publish the Sample App web app (NOTE: `$ pm publish` publishes the sample app, and this command is called inside the npm build script that we are running)
+2. Install the app's dependencies
     ```
-    $ cd <MobileExample-WebApp-Sample directory>/webapps/sample-webapp
+    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/sample-webapp
+    $ npm install
+    ```
+
+3. Log into the PM Tool
+    ```
+    $ pm auth <your_username> <your_password>
+    ```
+
+4. Build and Publish the Sample App
+    ```
+    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/sample-webapp
     $ npm run publish
     ```
-
-6. Define the Sample App.
+    
+5. Load the sample data
     ```
-    $ cd <MobileExample-WebApp-Sample directory>/pm-apps/sample-app
-    $ pm define ./app.json
-    ```
-7. Load the Sample App data.
-    ```
-    $ cd <MobileExample-WebApp-Sample directory>
+    $ cd <your_workspace>/MobileExample-WebApp-Sample
     $ pm import --data ./test/data/data.json --app ./pm-apps/sample-app/app.json
     ```
-
-8. Grant user access to the Sample App
-  NOTE: The current user is automatically granted access to the app they define; to grant access to additional users, use the following command:
-  `$ pm grant --user=<username>`
-
-
-9. Build the Predix Mobile App Container
-
-  a. Download the `PredixMobileReferenceApp.zip` file from [here](https://github.com/predixdev/PredixMobileReferenceApp/releases/latest)
-  
-  b. Unzip the PredixMobileReferenceApp.zip file (a good spot to put this may be in `<MobileExample-WebApp-Sample directory>`, but it does not matter.)
-  
-  c. Launch the Predix Mobile App container by double-clicking the `PredixMobileReferenceApp.xcodeproj` file (it will open in Xcode).
-    OPTIONAL: To change the Xcode default simulator choose a new simulator from the device dropdown.
-  
-  d. Run `$ ./set-pm-host.sh` to set the Predix Mobile service endpoint in the app container.
-  
-10. Start the Sample app in Xcode by clicking the run (looks like play) button.  Use the developer username and password that you saved in your parameters text file.
     
-
-
-
-
-
+6. Define the Sample App
+    ```
+    $ cd <your_workspace>/MobileExample-WebApp-Sample/pm-apps/sample-app/
+    $ pm define
+    ```
+    
+7. Update the info.plist for the Mobile App Container in Xcode to match the app name in the app.json and run.
