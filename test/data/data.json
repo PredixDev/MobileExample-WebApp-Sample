@@ -1619,7 +1619,7 @@
     "severity": "urgent",
     "severityClass": "fa fa-exclamation-triangle fa-4x color-urgent",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-12-18 12:10:42"
   },
@@ -1644,7 +1644,7 @@
     "severity": "normal",
     "severityClass": "fa fa-exclamation-triangle fa-4x color-normal",
     "status": "closed",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2016-02-06 03:35:37"
   },
@@ -1713,7 +1713,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2016-09-30 09:38:16"
   },
@@ -1917,7 +1917,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2016-08-10 08:41:03"
   },
@@ -2002,7 +2002,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2014-11-03 04:50:13"
   },
@@ -2053,7 +2053,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2014-11-25 11:28:08"
   },
@@ -2070,7 +2070,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2016-04-20 10:18:54"
   },
@@ -2155,7 +2155,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2016-03-15 12:16:27"
   },
@@ -2172,7 +2172,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2016-06-11 20:29:43"
   },
@@ -2274,7 +2274,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2014-10-21 11:52:47"
   },
@@ -2308,7 +2308,7 @@
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-10-24 20:24:05"
   },
@@ -2614,7 +2614,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2015-08-08 18:39:58"
   },
@@ -2631,7 +2631,7 @@
     "docType": "resource",
     "severity": "urgent",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2015-09-29 02:30:28"
   },
@@ -2682,7 +2682,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-09-01 18:19:07"
   },
@@ -2784,7 +2784,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2016-09-17 23:09:10"
   },
@@ -2835,7 +2835,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2015-01-22 03:16:23"
   },
@@ -2886,7 +2886,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2015-08-27 15:50:10"
   },
@@ -2954,7 +2954,7 @@
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2014-12-15 20:06:42"
   },
@@ -3005,7 +3005,7 @@
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-12-27 01:48:22"
   },
@@ -3022,7 +3022,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2015-12-07 19:06:39"
   },
@@ -3039,7 +3039,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-12-16 18:42:52"
   },
@@ -3073,7 +3073,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2016-06-18 08:52:00"
   },
@@ -3107,7 +3107,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2016-05-14 15:39:58"
   },
@@ -3158,7 +3158,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-09-20 23:44:30"
   },
@@ -3209,7 +3209,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Other",
     "updated_at": "2015-10-17 01:04:40"
   },
@@ -3226,7 +3226,7 @@
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2016-03-20 17:20:54"
   },
@@ -3243,7 +3243,7 @@
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Hardware",
     "updated_at": "2014-12-20 20:23:16"
   },
@@ -3294,7 +3294,7 @@
     "docType": "resource",
     "severity": "normal",
     "status": "open",
-    "title": "Imporper Loading",
+    "title": "Improper Loading",
     "type": "Software",
     "updated_at": "2015-03-13 23:36:43"
   },
@@ -3303,17 +3303,25 @@
     "channels": [
       "!"
     ],
-    "data": [],
-    "data_subscribe_complete": [],
-    "data_unsubscribe": [],
-    "data_unsubscribe_complete": [],
+    "data": [
+    ],
+    "data_subscribe_complete": [
+    ],
+    "data_unsubscribe": [
+    ],
+    "data_unsubscribe_complete": [
+    ],
     "parent": [
       "user-user1"
     ],
-    "resources": [],
-    "resources_subscribe_complete": [],
-    "resources_unsubscribe": [],
-    "resources_unsubscribe_complete": [],
+    "resources": [
+    ],
+    "resources_subscribe_complete": [
+    ],
+    "resources_unsubscribe": [
+    ],
+    "resources_unsubscribe_complete": [
+    ],
     "type": "sync"
   },
   {
@@ -3920,7 +3928,8 @@
   },
   {
     "_id": "user-user1",
-    "apps": [],
+    "apps": [
+    ],
     "channels": [
       "role-user",
       "!"
