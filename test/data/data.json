@@ -1597,12 +1597,12 @@
     ],
     "created_at": "2016-03-11 20:47:52",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-11-07 18:31:41"
   },
   {
@@ -1614,13 +1614,13 @@
     ],
     "created_at": "2015-09-17 12:47:01",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "severityClass": "fa fa-exclamation-triangle fa-4x color-urgent",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-12-18 12:10:42"
   },
   {
@@ -1639,13 +1639,13 @@
         }
       ]
     },
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "severityClass": "fa fa-exclamation-triangle fa-4x color-normal",
     "status": "closed",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-02-06 03:35:37"
   },
   {
@@ -1657,13 +1657,13 @@
     ],
     "created_at": "2015-09-04 20:46:45",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "severityClass": "fa fa-exclamation-triangle fa-4x color-urgent",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-09-14 16:17:50"
   },
   {
@@ -1675,12 +1675,12 @@
     ],
     "created_at": "2015-05-01 18:01:09",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-07-07 12:47:37"
   },
   {
@@ -1692,12 +1692,12 @@
     ],
     "created_at": "2015-03-01 12:39:20",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-01-03 12:54:07"
   },
   {
@@ -1709,12 +1709,12 @@
     ],
     "created_at": "2015-02-26 01:55:09",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-09-30 09:38:16"
   },
   {
@@ -1726,12 +1726,12 @@
     ],
     "created_at": "2015-06-09 07:06:07",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-09-08 08:09:40"
   },
   {
@@ -1743,12 +1743,12 @@
     ],
     "created_at": "2016-04-15 17:07:57",
     "customer": "Sibelius",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-09-16 07:48:16"
   },
   {
@@ -1760,12 +1760,12 @@
     ],
     "created_at": "2016-01-16 00:47:19",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "pending",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-11-23 22:40:49"
   },
   {
@@ -1777,12 +1777,12 @@
     ],
     "created_at": "2015-11-09 00:53:59",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2014-11-28 19:21:33"
   },
   {
@@ -1794,12 +1794,12 @@
     ],
     "created_at": "2015-05-03 13:32:32",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-11-08 10:49:06"
   },
   {
@@ -1811,12 +1811,12 @@
     ],
     "created_at": "2015-08-15 15:58:21",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-04-09 06:26:57"
   },
   {
@@ -1828,12 +1828,12 @@
     ],
     "created_at": "2016-05-02 21:42:16",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-10-03 00:46:09"
   },
   {
@@ -1845,12 +1845,12 @@
     ],
     "created_at": "2015-03-25 21:21:17",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-09-08 18:34:05"
   },
   {
@@ -1862,12 +1862,12 @@
     ],
     "created_at": "2015-09-19 06:47:37",
     "customer": "Lavasoft",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-12-11 10:26:56"
   },
   {
@@ -1879,12 +1879,12 @@
     ],
     "created_at": "2015-03-10 09:34:09",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-05-12 06:10:15"
   },
   {
@@ -1896,12 +1896,12 @@
     ],
     "created_at": "2015-01-25 00:48:40",
     "customer": "Yahoo",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-05-29 14:27:18"
   },
   {
@@ -1913,12 +1913,12 @@
     ],
     "created_at": "2016-04-29 23:15:57",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-08-10 08:41:03"
   },
   {
@@ -1930,12 +1930,12 @@
     ],
     "created_at": "2015-12-17 11:17:17",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-01-30 07:15:15"
   },
   {
@@ -1947,12 +1947,12 @@
     ],
     "created_at": "2016-08-16 01:47:17",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "pending",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-03-22 08:44:17"
   },
   {
@@ -1964,12 +1964,12 @@
     ],
     "created_at": "2016-10-03 19:12:23",
     "customer": "Sibelius",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-06-24 14:08:59"
   },
   {
@@ -1981,12 +1981,12 @@
     ],
     "created_at": "2016-09-23 21:03:25",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-12-14 18:33:23"
   },
   {
@@ -1998,12 +1998,12 @@
     ],
     "created_at": "2016-07-17 22:00:40",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2014-11-03 04:50:13"
   },
   {
@@ -2015,12 +2015,12 @@
     ],
     "created_at": "2015-08-05 19:27:29",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-01-05 17:55:40"
   },
   {
@@ -2032,12 +2032,12 @@
     ],
     "created_at": "2016-07-18 08:41:15",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-04-09 09:43:40"
   },
   {
@@ -2049,12 +2049,12 @@
     ],
     "created_at": "2015-04-24 20:45:49",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-11-25 11:28:08"
   },
   {
@@ -2066,12 +2066,12 @@
     ],
     "created_at": "2016-01-03 19:25:55",
     "customer": "Sibelius",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-04-20 10:18:54"
   },
   {
@@ -2083,12 +2083,12 @@
     ],
     "created_at": "2014-11-18 13:29:51",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-02-04 01:28:00"
   },
   {
@@ -2100,12 +2100,12 @@
     ],
     "created_at": "2015-08-07 20:23:55",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-09-13 22:21:12"
   },
   {
@@ -2117,12 +2117,12 @@
     ],
     "created_at": "2015-03-16 15:19:44",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-02-04 14:06:14"
   },
   {
@@ -2134,12 +2134,12 @@
     ],
     "created_at": "2016-06-20 05:40:12",
     "customer": "Lavasoft",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-10-02 13:26:49"
   },
   {
@@ -2151,12 +2151,12 @@
     ],
     "created_at": "2015-03-29 18:13:21",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-03-15 12:16:27"
   },
   {
@@ -2168,12 +2168,12 @@
     ],
     "created_at": "2016-08-06 15:04:55",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-06-11 20:29:43"
   },
   {
@@ -2185,12 +2185,12 @@
     ],
     "created_at": "2015-09-12 09:16:23",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-04-24 10:48:23"
   },
   {
@@ -2202,12 +2202,12 @@
     ],
     "created_at": "2016-10-11 19:49:00",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-05-24 14:16:51"
   },
   {
@@ -2219,12 +2219,12 @@
     ],
     "created_at": "2015-07-01 11:57:23",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-02-13 01:58:17"
   },
   {
@@ -2236,12 +2236,12 @@
     ],
     "created_at": "2016-03-14 05:11:13",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-01-27 23:18:55"
   },
   {
@@ -2253,12 +2253,12 @@
     ],
     "created_at": "2015-02-10 04:46:45",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-01-09 04:22:26"
   },
   {
@@ -2270,12 +2270,12 @@
     ],
     "created_at": "2015-08-14 13:38:12",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2014-10-21 11:52:47"
   },
   {
@@ -2287,12 +2287,12 @@
     ],
     "created_at": "2014-11-10 04:35:53",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-02-01 22:31:26"
   },
   {
@@ -2304,12 +2304,12 @@
     ],
     "created_at": "2015-05-08 01:55:44",
     "customer": "Lavasoft",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-10-24 20:24:05"
   },
   {
@@ -2321,12 +2321,12 @@
     ],
     "created_at": "2015-04-05 07:46:02",
     "customer": "Lavasoft",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-07-01 12:41:03"
   },
   {
@@ -2338,12 +2338,12 @@
     ],
     "created_at": "2015-11-19 04:12:31",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-04-06 03:59:25"
   },
   {
@@ -2355,12 +2355,12 @@
     ],
     "created_at": "2015-05-17 11:44:12",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2014-12-02 09:46:40"
   },
   {
@@ -2372,12 +2372,12 @@
     ],
     "created_at": "2015-02-28 10:11:36",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-02-08 11:34:53"
   },
   {
@@ -2389,12 +2389,12 @@
     ],
     "created_at": "2015-06-14 10:45:42",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-06-29 05:50:09"
   },
   {
@@ -2406,12 +2406,12 @@
     ],
     "created_at": "2015-11-25 02:21:29",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-03-12 12:33:53"
   },
   {
@@ -2423,12 +2423,12 @@
     ],
     "created_at": "2015-03-08 06:37:25",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-08-06 03:39:38"
   },
   {
@@ -2440,12 +2440,12 @@
     ],
     "created_at": "2016-06-28 05:29:48",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "pending",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-06-02 08:49:28"
   },
   {
@@ -2457,12 +2457,12 @@
     ],
     "created_at": "2015-03-10 08:39:41",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-01-10 16:25:34"
   },
   {
@@ -2474,12 +2474,12 @@
     ],
     "created_at": "2015-06-28 20:11:02",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-08-05 03:03:21"
   },
   {
@@ -2491,12 +2491,12 @@
     ],
     "created_at": "2015-07-14 22:52:08",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-09-29 05:34:13"
   },
   {
@@ -2508,12 +2508,12 @@
     ],
     "created_at": "2016-01-07 03:48:59",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "pending",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-09-15 16:35:56"
   },
   {
@@ -2525,12 +2525,12 @@
     ],
     "created_at": "2016-07-21 22:51:28",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-04-17 07:52:42"
   },
   {
@@ -2542,12 +2542,12 @@
     ],
     "created_at": "2016-02-17 18:40:02",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-07-03 17:32:57"
   },
   {
@@ -2559,12 +2559,12 @@
     ],
     "created_at": "2016-01-13 07:04:57",
     "customer": "Yahoo",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-06-15 10:46:12"
   },
   {
@@ -2576,12 +2576,12 @@
     ],
     "created_at": "2016-08-08 13:26:15",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-01-23 08:04:55"
   },
   {
@@ -2593,12 +2593,12 @@
     ],
     "created_at": "2014-11-22 11:30:56",
     "customer": "Yahoo",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-12-29 06:36:38"
   },
   {
@@ -2610,12 +2610,12 @@
     ],
     "created_at": "2015-10-24 21:11:55",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-08-08 18:39:58"
   },
   {
@@ -2627,12 +2627,12 @@
     ],
     "created_at": "2016-03-21 20:33:17",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-09-29 02:30:28"
   },
   {
@@ -2644,12 +2644,12 @@
     ],
     "created_at": "2015-03-03 18:37:38",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-08-29 14:42:39"
   },
   {
@@ -2661,12 +2661,12 @@
     ],
     "created_at": "2015-11-07 12:38:43",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-07-30 14:40:53"
   },
   {
@@ -2678,12 +2678,12 @@
     ],
     "created_at": "2016-03-05 04:30:14",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-09-01 18:19:07"
   },
   {
@@ -2695,12 +2695,12 @@
     ],
     "created_at": "2015-07-17 00:30:23",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-11-04 18:33:15"
   },
   {
@@ -2712,12 +2712,12 @@
     ],
     "created_at": "2016-03-20 11:21:02",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-02-13 14:50:55"
   },
   {
@@ -2729,12 +2729,12 @@
     ],
     "created_at": "2015-08-20 12:49:21",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-06-09 10:53:28"
   },
   {
@@ -2746,12 +2746,12 @@
     ],
     "created_at": "2015-12-06 12:14:25",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-03-26 16:03:59"
   },
   {
@@ -2763,12 +2763,12 @@
     ],
     "created_at": "2015-09-07 10:34:16",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-09-25 03:02:45"
   },
   {
@@ -2780,12 +2780,12 @@
     ],
     "created_at": "2016-02-05 06:33:20",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-09-17 23:09:10"
   },
   {
@@ -2797,12 +2797,12 @@
     ],
     "created_at": "2016-07-03 01:47:00",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-08-11 15:32:56"
   },
   {
@@ -2814,12 +2814,12 @@
     ],
     "created_at": "2015-09-16 07:08:56",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-06-06 17:48:14"
   },
   {
@@ -2831,12 +2831,12 @@
     ],
     "created_at": "2015-07-28 23:18:28",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-01-22 03:16:23"
   },
   {
@@ -2848,12 +2848,12 @@
     ],
     "created_at": "2016-06-19 02:54:38",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-05-24 20:34:55"
   },
   {
@@ -2865,12 +2865,12 @@
     ],
     "created_at": "2016-06-14 09:14:27",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-05-17 05:00:33"
   },
   {
@@ -2882,12 +2882,12 @@
     ],
     "created_at": "2016-02-24 19:01:28",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-08-27 15:50:10"
   },
   {
@@ -2899,12 +2899,12 @@
     ],
     "created_at": "2016-06-15 22:59:17",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-01-24 15:44:31"
   },
   {
@@ -2916,12 +2916,12 @@
     ],
     "created_at": "2015-03-27 13:32:04",
     "customer": "Lycos",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-10-30 16:10:13"
   },
   {
@@ -2933,12 +2933,12 @@
     ],
     "created_at": "2016-01-10 21:47:56",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Equipment Fault",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-03-19 09:45:02"
   },
   {
@@ -2950,12 +2950,12 @@
     ],
     "created_at": "2014-10-30 15:17:58",
     "customer": "Google",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-12-15 20:06:42"
   },
   {
@@ -2967,12 +2967,12 @@
     ],
     "created_at": "2016-02-08 14:10:30",
     "customer": "Cakewalk",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2014-12-07 03:57:52"
   },
   {
@@ -2984,12 +2984,12 @@
     ],
     "created_at": "2015-12-27 04:35:59",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-09-02 20:19:39"
   },
   {
@@ -3001,12 +3001,12 @@
     ],
     "created_at": "2016-02-12 05:05:26",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-12-27 01:48:22"
   },
   {
@@ -3018,12 +3018,12 @@
     ],
     "created_at": "2014-10-30 11:31:24",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-12-07 19:06:39"
   },
   {
@@ -3035,12 +3035,12 @@
     ],
     "created_at": "2015-03-06 11:46:51",
     "customer": "Adobe",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "closed",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-12-16 18:42:52"
   },
   {
@@ -3052,12 +3052,12 @@
     ],
     "created_at": "2014-12-31 23:12:03",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "urgent",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2014-11-07 05:12:14"
   },
   {
@@ -3069,12 +3069,12 @@
     ],
     "created_at": "2015-10-27 08:29:45",
     "customer": "Google",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2016-06-18 08:52:00"
   },
   {
@@ -3086,12 +3086,12 @@
     ],
     "created_at": "2015-11-01 20:59:10",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "pending",
     "title": "Equipment Fault",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-09-01 01:08:10"
   },
   {
@@ -3103,12 +3103,12 @@
     ],
     "created_at": "2014-11-27 16:31:27",
     "customer": "Altavista",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2016-05-14 15:39:58"
   },
   {
@@ -3120,12 +3120,12 @@
     ],
     "created_at": "2016-09-09 12:55:51",
     "customer": "Microsoft",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-08-23 12:18:44"
   },
   {
@@ -3137,12 +3137,12 @@
     ],
     "created_at": "2016-08-10 15:12:03",
     "customer": "Yahoo",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-02-16 21:18:01"
   },
   {
@@ -3154,12 +3154,12 @@
     ],
     "created_at": "2014-11-27 20:14:18",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "critical",
     "status": "pending",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-09-20 23:44:30"
   },
   {
@@ -3171,12 +3171,12 @@
     ],
     "created_at": "2015-09-24 15:07:09",
     "customer": "Google",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-05-10 09:41:28"
   },
   {
@@ -3188,12 +3188,12 @@
     ],
     "created_at": "2016-04-22 11:45:22",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "accepted",
     "title": "High Voltage Reading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2015-03-25 20:13:23"
   },
   {
@@ -3205,12 +3205,12 @@
     ],
     "created_at": "2016-06-16 03:49:49",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-10-17 01:04:40"
   },
   {
@@ -3222,12 +3222,12 @@
     ],
     "created_at": "2015-02-16 08:23:18",
     "customer": "Apple Systems",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "critical",
     "status": "accepted",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2016-03-20 17:20:54"
   },
   {
@@ -3239,12 +3239,12 @@
     ],
     "created_at": "2015-02-02 04:27:17",
     "customer": "Finale",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "urgent",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-12-20 20:23:16"
   },
   {
@@ -3256,12 +3256,12 @@
     ],
     "created_at": "2014-11-12 18:35:14",
     "customer": "Borland",
-    "dataType": "entity",
+    "dataType": "Hardware",
     "docType": "resource",
     "severity": "normal",
     "status": "closed",
     "title": "Equipment Fault",
-    "type": "Hardware",
+    "type": "entity",
     "updated_at": "2014-11-10 05:33:34"
   },
   {
@@ -3273,12 +3273,12 @@
     ],
     "created_at": "2016-07-08 13:41:48",
     "customer": "Macromedia",
-    "dataType": "entity",
+    "dataType": "Other",
     "docType": "resource",
     "severity": "urgent",
     "status": "closed",
     "title": "High Voltage Reading",
-    "type": "Other",
+    "type": "entity",
     "updated_at": "2015-08-03 12:29:48"
   },
   {
@@ -3290,12 +3290,12 @@
     ],
     "created_at": "2015-01-20 04:33:23",
     "customer": "Chami",
-    "dataType": "entity",
+    "dataType": "Software",
     "docType": "resource",
     "severity": "normal",
     "status": "open",
     "title": "Improper Loading",
-    "type": "Software",
+    "type": "entity",
     "updated_at": "2015-03-13 23:36:43"
   },
   {
@@ -3303,25 +3303,17 @@
     "channels": [
       "!"
     ],
-    "data": [
-    ],
-    "data_subscribe_complete": [
-    ],
-    "data_unsubscribe": [
-    ],
-    "data_unsubscribe_complete": [
-    ],
+    "data": [],
+    "data_subscribe_complete": [],
+    "data_unsubscribe": [],
+    "data_unsubscribe_complete": [],
     "parent": [
       "user-user1"
     ],
-    "resources": [
-    ],
-    "resources_subscribe_complete": [
-    ],
-    "resources_unsubscribe": [
-    ],
-    "resources_unsubscribe_complete": [
-    ],
+    "resources": [],
+    "resources_subscribe_complete": [],
+    "resources_unsubscribe": [],
+    "resources_unsubscribe_complete": [],
     "type": "sync"
   },
   {
@@ -3928,8 +3920,7 @@
   },
   {
     "_id": "user-user1",
-    "apps": [
-    ],
+    "apps": [],
     "channels": [
       "role-user",
       "!"
