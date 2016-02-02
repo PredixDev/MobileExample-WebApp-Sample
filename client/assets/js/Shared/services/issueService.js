@@ -89,7 +89,7 @@ angular.module('application').service('issueService',
             return pmapiService.getAllDocs().then(function(rows) {
                 //console.log("getAllDocs Response: ", rows);
                 // return issues from all docs
-                return $filter('filter')(rows, {doc: {dataType: "entity"}}, true);
+                return $filter('filter')(rows, {doc: {type: "entity"}}, true);
             });
         };
 
