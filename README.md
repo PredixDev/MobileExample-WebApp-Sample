@@ -26,42 +26,63 @@ The sample app's tech stack is based on Foundation for Apps, which uses HTML5, J
 
 ## Running the Predix Mobile Sample App
 
-###Before You Begin:
+### Before You Begin:
 This is the general setup for all Mobile WebApp Examples.
-If you have NOT worked through the [getting started documentation](https://www.predix.io/docs#lVCblJRH), please use those docs for running the sample app.
+If you have NOT worked through the **[getting started documentation](https://www.predix.io/docs#EGUzWwcC), please use [these docs](https://www.predix.io/docs#EGUzWwcC) for running the sample app**.
 
-###Setup
-This is the general setup for all Mobile WebApp Examples, but is HIGHLY recommended that you follow the [getting started documentation](https://www.predix.io/docs#lVCblJRH) when installing this app.
+### Setup
+This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recommended that you follow the [getting started documentation](https://www.predix.io/docs#EGUzWwcC)** when installing this app.
 
-1. Clone the repo into your desired workspace.
+1. Create an empty directory and setup a workspace using the PM Tool.
+   ```
+   $ pm workspace --create
+   ```
 
-2. Install the app's dependencies
+1. Clone the repo under the webapps folder in your workspace.
+   ```
+   $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps
+   $ git clone https://github.com/PredixDev/MobileExample-WebApp-Sample.git
+   ```
+
+1. Install the app's dependencies
     ```
-    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/sample-webapp
+    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/MobileExample-WebApp-Sample
     $ npm install
     ```
 
-3. Log into the PM Tool
+1. Log into the PM Tool
     ```
     $ pm auth <your_username> <your_password>
     ```
 
-4. Build and Publish the Sample App
+1. Build and Publish the Sample App
     ```
-    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/sample-webapp
+    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/MobileExample-WebApp-Sample
     $ npm run publish
     ```
 
-5. Load the sample data
+1. Load the sample data
     ```
     $ cd <your_workspace>/MobileExample-WebApp-Sample
     $ pm import --data ./test/data/data.json --app ./pm-apps/sample-app/app.json
     ```
 
-6. Define the Sample App
+1. Include the webapp in your app.json
+    ```
+    {
+        "name": "Sample1",
+        "version": "1.0",
+        "starter": "sample-webapp",
+        "dependencies": {
+        "sample-webapp": "0.0.1"
+        }
+    }
+    ```
+
+1. Define the Sample App
     ```
     $ cd <your_workspace>/MobileExample-WebApp-Sample/pm-apps/sample-app/
     $ pm define
     ```
 
-7. Update the info.plist for the Mobile App Container in Xcode to match the app name in the app.json and run.
+1. Update the info.plist for the Mobile App Container in Xcode to match the app name in the app.json and run.
