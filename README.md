@@ -40,13 +40,13 @@ This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recomm
 
 1. Clone the repo under the webapps folder in your workspace.
    ```
-   $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps
+   $ cd <your_workspace>/webapps
    $ git clone https://github.com/PredixDev/MobileExample-WebApp-Sample.git
    ```
 
 1. Install the app's dependencies
     ```
-    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/MobileExample-WebApp-Sample
+    $ cd <your_workspace>/webapps/MobileExample-WebApp-Sample
     $ npm install
     ```
 
@@ -57,17 +57,16 @@ This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recomm
 
 1. Build and Publish the Sample App
     ```
-    $ cd <your_workspace>/MobileExample-WebApp-Sample/webapps/MobileExample-WebApp-Sample
+    $ cd <your_workspace>/webapps/MobileExample-WebApp-Sample
     $ npm run publish
     ```
 
-1. Load the sample data
+1. Within your pm-apps folder create a folder called SampleApp.
     ```
-    $ cd <your_workspace>/MobileExample-WebApp-Sample
-    $ pm import --data ./test/data/data.json --app ./pm-apps/sample-app/app.json
+    $ mkdir <your_workspace>/pm-apps/SampleApp
     ```
 
-1. Include the webapp in your app.json
+1. In the SampleApp folder create your app.json file. The contents should be as follows:
     ```
     {
         "name": "Sample1",
@@ -79,10 +78,17 @@ This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recomm
     }
     ```
 
+1. Load the sample data
+    ```
+    $ cd <your_workspace>
+    $ pm import --data ./webapps/MobileExample-WebaApp-Sample/test/data/data.json --app ./pm-apps/SampleApp/app.json
+    ```
+
+
 1. Define the Sample App
     ```
-    $ cd <your_workspace>/MobileExample-WebApp-Sample/pm-apps/sample-app/
+    $ cd <your_workspace>/pm-apps/SampleApp/
     $ pm define
     ```
 
-1. Update the info.plist for the Mobile App Container in Xcode to match the app name in the app.json and run.
+1. Update the info.plist for the Mobile App Container in Xcode to match the app name and version in the app.json and run.
