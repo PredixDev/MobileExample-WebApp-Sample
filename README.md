@@ -81,7 +81,7 @@ This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recomm
 1. Load the sample data
     ```
     $ cd <your_workspace>
-    $ pm import --data ./webapps/MobileExample-WebaApp-Sample/test/data/data.json --app ./pm-apps/SampleApp/app.json
+    $ pm import --data ./webapps/MobileExample-WebApp-Sample/test/data/data.json --app ./pm-apps/SampleApp/app.json
     ```
 
 
