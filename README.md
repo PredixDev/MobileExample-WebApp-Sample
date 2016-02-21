@@ -52,6 +52,7 @@ This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recomm
 
 1. Log into the PM Tool
     ```
+    $ pm api <your_predix_mobile_server_address>
     $ pm auth <your_username> <your_password>
     ```
 
