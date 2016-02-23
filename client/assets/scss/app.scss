@@ -165,4 +165,13 @@ $cute-white: #F1F1F1;
     margin-top: 3px;
     margin-bottom: 3px;
   }
+
+  .modal{
+    padding-top: 1em;
+    max-width: 80%;
+    .button-group{
+      width: inherit;
+    }
+  }
+
 }

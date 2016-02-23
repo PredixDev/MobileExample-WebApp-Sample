@@ -5,7 +5,7 @@
 'use strict';
 
 angular.module('application').controller('issueDetailCtrl',
-    function($scope, $state, navbarService, issueService){
+    function($scope, $state, navbarService, issueService,pmapiService, $http){
         $scope.issueId = $state.params.issueId;
 
         if($state.params.issueType){
@@ -15,7 +15,7 @@ angular.module('application').controller('issueDetailCtrl',
             navbarService.setButton(0, "Back", "issues", true, true);
         }
 
-        navbarService.setButton(1, "Right", "issues", false, false);
+        navbarService.setButton(1, "", "issues", false, false);
 
         navbarService.setTitle("Issue Details");
 
@@ -24,5 +24,18 @@ angular.module('application').controller('issueDetailCtrl',
             console.log("issueID: ",$scope.issueId );
             console.log($scope.issue);
         });
+
+        $scope.assignIssue = function(issueId,assignee){
+            pmapiService.getDocumentById(issueId).then(function(issue){
+                var data = issue;
+                data.assignee = assignee;
+                //data.updated_at = new Date();
+                return $http.put("http://pmapi/cdb/pm/"+issue._id,data);
+            }).then(function(response) {
+                $scope.issue.assignee = assignee;
+                console.log("received put response: " + response);
+            });
+        };
+
 
     });

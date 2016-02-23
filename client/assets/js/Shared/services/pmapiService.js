@@ -3,6 +3,8 @@
 angular.module('application').service('pmapiService',
     function($http){
 
+        var self = this;
+
         /*
         * The following functions each make a call to the Predix Mobile Up API
         * and returns data that has been synced to the device from the cloud store.
@@ -40,6 +42,7 @@ angular.module('application').service('pmapiService',
 
 
         };
+
 
 
     });

@@ -79,13 +79,33 @@ controller: issueDetailCtrl
                     </div>
 
                     <div class="grid-block shrink">
-                        <a class="button" href="#">Assign</a>
+                        <a class="button" zf-open="advancedModal" href="#">Assign</a>
                     </div>
                 </div>
             </div>
 
 
         </div>
+
+        <!--ASSIGN TO modal-->
+        <div zf-modal="" id="advancedModal" class="collapse dialog">
+            <div class="grid-block">
+                <div class="grid-content">
+                    <form>
+                        <label>
+                            Assign an Issue
+                            <input type="text" placeholder="Assignee Name" ng-model="assignee">
+                        </label>
+                        <ul class="button-group">
+                            <li><a zf-close="" ng-click="assignIssue(issue._id,assignee);assignee=''">Assign</a></li>
+                            <li><a zf-close="" ng-click="assignee=''">Cancel</a></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
     </div>
 </div>
+
