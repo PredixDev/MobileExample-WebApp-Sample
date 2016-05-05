@@ -8,6 +8,10 @@ Version: 1.0
 Web-App Name: sample-webapp
 
 Version: 0.0.1
+## Getting Started
+To get started, follow this documentation:
+* [Get Started with the Mobile Service and Mobile SDK] (https://www.predix.io/docs#rae4EfJ6) 
+* [Running the Predix Mobile Sample App] (https://www.predix.io/docs#EGUzWwcC)
 
 ## Background
 This is the sample app for Predix Mobile.
@@ -26,9 +30,7 @@ The sample app's tech stack is based on Foundation for Apps, which uses HTML5, J
 
 ## Running the Predix Mobile Sample App
 
-### Before You Begin:
-This is the general setup for all Mobile WebApp Examples.
-If you have NOT worked through the **[getting started documentation](https://www.predix.io/docs#EGUzWwcC), please use [these docs](https://www.predix.io/docs#EGUzWwcC) for running the sample app**.
+
 
 ### Setup
 This is the general setup for all Mobile WebApp Examples, but is **HIGHLY recommended that you follow the [getting started documentation](https://www.predix.io/docs#EGUzWwcC)** when installing this app.
