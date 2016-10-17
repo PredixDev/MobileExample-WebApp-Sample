@@ -3,4 +3,4 @@ It is assumed you have a Predix Mobile service instance on Cloud Foundry, you ha
 
 * [Get Started with the Mobile Service and Mobile SDK] (https://www.predix.io/docs#rae4EfJ6) 
 * [Running the Predix Mobile Sample App] (https://www.predix.io/docs#EGUzWwcC)
-* [Creating a Mobile Hello World Webapp] (https://www.predix.io/docs#DrBWuHkl) 
+* [Creating a Mobile Hello World Web App] (https://www.predix.io/docs#DrBWuHkl) 
